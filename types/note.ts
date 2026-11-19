@@ -14,7 +14,3 @@ export interface CreateNote {
 }
 
 export type NoteTag = "Todo" | "Work" | "Personal" | "Meeting" | "Shopping";
-
-export type ErrorProps = {
-  error: Error;
-};
